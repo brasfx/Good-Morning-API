@@ -39,23 +39,22 @@ export default function Home() {
   };
 
   useEffect(() => {
-    if (debouncedSearchTerm) {
-      setLocation(debouncedSearchTerm);
-    }
-  }, [debouncedSearchTerm, isSearching]);
-
-  useEffect(() => {
     async function getUserLocation() {
       try {
-        const location = await userLocation();
-        setLocation(location);
+        const userLocation = await userLocation();
+        setLocation(userLocation);
       } catch (err) {
         console.log(err);
       }
     }
-
     getUserLocation();
   }, []);
+
+  useEffect(() => {
+    if (debouncedSearchTerm) {
+      setLocation(debouncedSearchTerm);
+    }
+  }, [debouncedSearchTerm, isSearching]);
 
   useEffect(() => {
     async function getWeather() {
