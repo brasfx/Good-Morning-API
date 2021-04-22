@@ -1,354 +1,354 @@
 {
-  "day": {
-    "200": {
-      "recommendation": "Tempestuoso com um pouco de chuva. Pegue um casaco"
+    "day": {
+        "200": {
+            "recommendation": "Tempestuoso com um pouco de chuva. Pegue um casaco"
+        },
+        "201": {
+            "recommendation": "Tempestuoso com aguaceiros. Pegue um guarda-chuva quando sair"
+        },
+        "202": {
+            "recommendation": "Hoje choverá torrencialmente lá fora. Pegue todos os guarda-chuvas que conseguir"
+        },
+        "210": {
+            "recommendation": "Tempestade leve a caminho. Agora é um bom momento para usar aquele detector de relâmpagos que está aí de bobeira."
+        },
+        "211": {
+            "recommendation": "Tempestade a caminho. Cuidado com os tímpanos, por favor."
+        },
+        "212": {
+            "recommendation": "Um dilúvio hoje.. Galochas e um colete salva-vidas são o mínimo necessário"
+        },
+        "221": {
+            "recommendation": "Tempo horrível. Jaquetas, guarda-chuvas... Oh droga, talvez você precise até de um bote"
+        },
+        "230": {
+            "recommendation": "Tempestades e um pouco de chuva. Guarda-chuvas + camadas de roupas hoje, temo eu"
+        },
+        "231": {
+            "recommendation": "Chuva + tempestades...você irá parecer um pateta se sair sem um casaco hoje"
+        },
+        "232": {
+            "recommendation": "Chuvas chegando. Guarda-chuvas, pelo amor de Deus!"
+        },
+        "300": {
+            "recommendation": "Bem, um pouco de chuva nunca matou ninguém. Até estou legalmente apto a dizer que... *apaga frenéticamente*"
+        },
+        "301": {
+            "recommendation": "Chuva, mas nem tanto. Seja sensato e leve um casaco, Cristo!"
+        },
+        "302": {
+            "recommendation": "Chuva, daquele tipo bem chatinho. Não deixe ela te pegar"
+        },
+        "310": {
+            "recommendation": "O tipo de chuva em que as pessoas dançam nos filmes. Você vai ficar bem"
+        },
+        "311": {
+            "recommendation": "Um pouco de chuva. Nada para se preocupar muito"
+        },
+        "312": {
+            "recommendation": "Mais chuva, temo eu. Você já sabe: Jaqueta ou casaco"
+        },
+        "313": {
+            "recommendation": "Aguaceiros previstos. Isso significa um banho grátis se você não levar um guarda-chuva"
+        },
+        "314": {
+            "recommendation": "Chovendo canivete. É necessário um guarda-chuva e um par de galochas grossas."
+        },
+        "321": {
+            "recommendation": "Chuva, mas do tipo que você sobrevive ficando dentro de casa. Guarda-chuva opcional"
+        },
+        "500": {
+            "recommendation": "Hoje você se safa apenas com um blusão. Aviso: eu não serei responsaibizado por quaisquer acidentes relacionados com a chuva"
+        },
+        "501": {
+            "recommendation": "Um pouco mais de chuva. Melhor levar um guarda-chuva, amigão"
+        },
+        "502": {
+            "recommendation": "Já está ficando chato. Guarda-chuva + jaqueta necessários"
+        },
+        "503": {
+            "recommendation": "Quantidades bíblicas de chuvas previstas. Guarda-chuva, jaqueta, casaco, blusas, colete salva-vidas, e um bote de reserva. Padrão"
+        },
+        "504": {
+            "recommendation": "Estou muito feliz em te dizer que você não sairá de casa hoje, pois irá se afogar na chuva lá fora"
+        },
+        "511": {
+            "recommendation": "Chuva, frio cortante, condições devastadoras, o de sempre. Seria bom procurar abrigo e permanecer dentro de casa"
+        },
+        "520": {
+            "recommendation": "Chuviscos previstos. Leve um guarda-chuva, pelo amor de Deus!"
+        },
+        "521": {
+            "recommendation": "Chuviscos previstos. Por favor, leve um guarda-chuva, pelo amor de Deus!"
+        },
+        "522": {
+            "recommendation": "Você ficará ensopado se ousar sair sem um conjunto de jaquetão e um baita guarda-chuva hoje"
+        },
+        "531": {
+            "recommendation": "Chuvas fortes. Você vai precisar de uma jaqueta, galochas e força em escala industrial para passar por esta"
+        },
+        "600": {
+            "recommendation": "Previsão de neve leve. Você vai ficar bem"
+        },
+        "601": {
+            "recommendation": "Neve. Mas você vai sobreviver. Leve um blusão, só por precaução"
+        },
+        "602": {
+            "recommendation": "Está feio lá fora. Ligue para o escritório e diga que está doente"
+        },
+        "611": {
+            "recommendation": "Guarda-chuva e casaco como padrão"
+        },
+        "612": {
+            "recommendation": "Guarda-chuva e casaco como padrão"
+        },
+        "613": {
+            "recommendation": "Guarda-chuva e casaco como padrão"
+        },
+        "615": {
+            "recommendation": "Guarda-chuva e casaco como padrão. Não diga que não te avisei"
+        },
+        "616": {
+            "recommendation": "Guarda-chuva + casaco + uma xícara de uma bebida quente"
+        },
+        "620": {
+            "recommendation": "Um casaco leve deve ser suficiente"
+        },
+        "621": {
+            "recommendation": "Chuva + neve. Poderia ser melhor. Poderia ser pior. Jaqueta + guarda-chuvaa recomendado"
+        },
+        "622": {
+            "recommendation": "Está uma zona de guerra lá fora. Jaqueta, guarda-chuva, casaco e capacete necessários"
+        },
+        "701": {
+            "recommendation": "O ar está denso com neblina e quase não chove. Vá com cuidado"
+        },
+        "702": {
+            "recommendation": "Você está sentindo cheiro de queimado? Eu sim..."
+        },
+        "711": {
+            "recommendation": "Aviso de fumaça - risco de potencial incêndio florestal. Esteja extremamente atento aos avisos meteorológicos mais atualizados"
+        },
+        "721": {
+            "recommendation": "O sol saiu, mas está nublado. Tenho trabalho, mas sou preguiçoso. Como um mini Eminem, haha"
+        },
+        "731": {
+            "recommendation": "Está tipo o Saara na rua. Vista o mínimo de roupas"
+        },
+        "741": {
+            "recommendation": "Tempo nebuloso. Visibilidade muito afetada. Tome muito cuidado ao dirigir, se necessário."
+        },
+        "751": {
+            "recommendation": "Potenciais tempestades de areia esperadas. Evite sair, se puder"
+        },
+        "761": {
+            "recommendation": "Potenciais tempestades de poeira são esperadas. Protejam-se e fiquem seguros"
+        },
+        "762": {
+            "recommendation": "Aviso de cinzas vulcânicas - fique dentro de casa sempre que possível"
+        },
+        "771": {
+            "recommendation": "Aviso de tempestade de neve - evite ficar ao ar livre, se puder"
+        },
+        "781": {
+            "recommendation": "Aviso de tornado - proteja-se ao primeiro sinal. Fique longe das janelas."
+        },
+        "800": {
+            "recommendation": "É um lindo dia. Passe um pouco de protetor solar e talvez pegue um chapéu também, só por garantia."
+        },
+        "801": {
+            "recommendation": "Ótimo dia para secar a roupa e talvez dar uma voltinha mais tarde :)"
+        },
+        "802": {
+            "recommendation": "O amor está no ar. Convide aquela pessoa especial para tomar um café"
+        },
+        "803": {
+            "recommendation": " Pé na areia, caipirinha, água de coco, uma cervejinha, beira do mar 🎵. O dia tá legal lá fora..."
+        },
+        "804": {
+            "recommendation": "Ótimo dia para uma corrida. Vista sua roupa de academia"
+        }
     },
-    "201": {
-      "recommendation": "Tempestuoso com aguaceiros. Pegue um guarda-chuva quando sair"
-    },
-    "202": {
-      "recommendation": "Hoje choverá torrencialmente lá fora. Pegue todos os guarda-chuvas que conseguir"
-    },
-    "210": {
-      "recommendation": "Tempestade leve a caminho. Agora é um bom momento para usar aquele detector de relâmpagos que está aí de bobeira."
-    },
-    "211": {
-      "recommendation": "Tempestade a caminho. Cuidado com os tímpanos, por favor."
-    },
-    "212": {
-      "recommendation": "Um dilúvio hoje.. Galochas e um colete salva-vidas são o mínimo necessário"
-    },
-    "221": {
-      "recommendation": "Tempo horrível. Jaquetas, guarda-chuvas... Oh droga, talvez você precise até de um bote"
-    },
-    "230": {
-      "recommendation": "Tempestades e um pouco de chuva. Guarda-chuvas + camadas de roupas hoje, temo eu"
-    },
-    "231": {
-      "recommendation": "Chuva + tempestades...você irá parecer um pateta se sair sem um casaco hoje"
-    },
-    "232": {
-      "recommendation": "Chuvas chegando. Guarda-chuvas, pelo amor de Deus!"
-    },
-    "300": {
-      "recommendation": "Bem, um pouco de chuva nunca matou ninguém. Até estou legalmente apto a dizer que... *apaga frenéticamente*"
-    },
-    "301": {
-      "recommendation": "Chuva, mas nem tanto. Seja sensato e leve um casaco, Cristo!"
-    },
-    "302": {
-      "recommendation": "Chuva, daquele tipo bem chatinho. Não deixe ela te pegar"
-    },
-    "310": {
-      "recommendation": "O tipo de chuva em que as pessoas dançam nos filmes. Você vai ficar bem"
-    },
-    "311": {
-      "recommendation": "Um pouco de chuva. Nada para se preocupar muito"
-    },
-    "312": {
-      "recommendation": "Mais chuva, temo eu. Você já sabe: Jaqueta ou casaco"
-    },
-    "313": {
-      "recommendation": "Aguaceiros previstos. Isso significa um banho grátis se você não levar um guarda-chuva"
-    },
-    "314": {
-      "recommendation": "Chovendo canivete. É necessário um guarda-chuva e um par de galochas grossas."
-    },
-    "321": {
-      "recommendation": "Chuva, mas do tipo que você sobrevive ficando dentro de casa. Guarda-chuva opcional"
-    },
-    "500": {
-      "recommendation": "Hoje você se safa apenas com um blusão. Aviso: eu não serei responsaibizado por quaisquer acidentes relacionados com a chuva"
-    },
-    "501": {
-      "recommendation": "Um pouco mais de chuva. Melhor levar um guarda-chuva, amigão"
-    },
-    "502": {
-      "recommendation": "Já está ficando chato. Guarda-chuva + jaqueta necessários"
-    },
-    "503": {
-      "recommendation": "Quantidades bíblicas de chuvas previstas. Guarda-chuva, jaqueta, casaco, blusas, colete salva-vidas, e um bote de reserva. Padrão"
-    },
-    "504": {
-      "recommendation": "Estou muito feliz em te dizer que você não sairá de casa hoje, pois irá se afogar na chuva lá fora"
-    },
-    "511": {
-      "recommendation": "Chuva, frio cortante, condições devastadoras, o de sempre. Seria bom procurar abrigo e permanecer dentro de casa"
-    },
-    "520": {
-      "recommendation": "Chuviscos previstos. Leve um guarda-chuva, pelo amor de Deus!"
-    },
-    "521": {
-      "recommendation": "Chuviscos previstos. Por favor, leve um guarda-chuva, pelo amor de Deus!"
-    },
-    "522": {
-      "recommendation": "Você ficará ensopado se ousar sair sem um conjunto de jaquetão e um baita guarda-chuva hoje"
-    },
-    "531": {
-      "recommendation": "Chuvas fortes. Você vai precisar de uma jaqueta, galochas e força em escala industrial para passar por esta"
-    },
-    "600": {
-      "recommendation": "Previsão de neve leve. Você vai ficar bem"
-    },
-    "601": {
-      "recommendation": "Neve. Mas você vai sobreviver. Leve um blusão, só por precaução"
-    },
-    "602": {
-      "recommendation": "Está feio lá fora. Ligue para o escritório e diga que está doente"
-    },
-    "611": {
-      "recommendation": "Guarda-chuva e casaco como padrão"
-    },
-    "612": {
-      "recommendation": "Guarda-chuva e casaco como padrão"
-    },
-    "613": {
-      "recommendation": "Guarda-chuva e casaco como padrão"
-    },
-    "615": {
-      "recommendation": "Guarda-chuva e casaco como padrão. Não diga que não te avisei"
-    },
-    "616": {
-      "recommendation": "Guarda-chuva + casaco + uma xícara de uma bebida quente"
-    },
-    "620": {
-      "recommendation": "Um casaco leve deve ser suficiente"
-    },
-    "621": {
-      "recommendation": "Chuva + neve. Poderia ser melhor. Poderia ser pior. Jaqueta + guarda-chuvaa recomendado"
-    },
-    "622": {
-      "recommendation": "Está uma zona de guerra lá fora. Jaqueta, guarda-chuva, casaco e capacete necessários"
-    },
-    "701": {
-      "recommendation": "O ar está denso com neblina e quase não chove. Vá com cuidado"
-    },
-    "702": {
-      "recommendation": "Você está sentindo cheiro de queimado? Eu sim..."
-    },
-    "711": {
-      "recommendation": "Aviso de fumaça - risco de potencial incêndio florestal. Esteja extremamente atento aos avisos meteorológicos mais atualizados"
-    },
-    "721": {
-      "recommendation": "O sol saiu, mas está nublado. Tenho trabalho, mas sou preguiçoso. Como um mini Eminem, haha"
-    },
-    "731": {
-      "recommendation": "Está tipo o Saara na rua. Vista o mínimo de roupas"
-    },
-    "741": {
-      "recommendation": "Tempo nebuloso. Visibilidade muito afetada. Tome muito cuidado ao dirigir, se necessário."
-    },
-    "751": {
-      "recommendation": "Potenciais tempestades de areia esperadas. Evite sair, se puder"
-    },
-    "761": {
-      "recommendation": "Potenciais tempestades de poeira são esperadas. Protejam-se e fiquem seguros"
-    },
-    "762": {
-      "recommendation": "Aviso de cinzas vulcânicas - fique dentro de casa sempre que possível"
-    },
-    "771": {
-      "recommendation": "Aviso de tempestade de neve - evite ficar ao ar livre, se puder"
-    },
-    "781": {
-      "recommendation": "Aviso de tornado - proteja-se ao primeiro sinal. Fique longe das janelas."
-    },
-    "800": {
-      "recommendation": "É um lindo dia. Passe um pouco de protetor solar e talvez pegue um chapéu também, só por garantia."
-    },
-    "801": {
-      "recommendation": "Ótimo dia para secar a roupa e talvez dar uma voltinha mais tarde :)"
-    },
-    "802": {
-      "recommendation": "O amor está no ar. Convide aquela pessoa especial para tomar um café"
-    },
-    "803": {
-      "recommendation": " Pé na areia, caipirinha, água de coco, uma cervejinha, beira do mar 🎵. O dia tá legal lá fora..."
-    },
-    "804": {
-      "recommendation": "Ótimo dia para uma corrida. Vista sua roupa de academia"
+    "night": {
+        "200": {
+            "recommendation": "Tempestuoso com um pouco de chuva. Casaco necessário"
+        },
+        "201": {
+            "recommendation": "Tempestuoso com aguaceiros. Pegue um guarda-chuva ao sair"
+        },
+        "202": {
+            "recommendation": "Hoje choverá torrencialmente lá fora. Pegue todos os guarda-chuvas que conseguir"
+        },
+        "210": {
+            "recommendation": "Tempestade leve a caminho. Agora é um bom momento para usar aquele detector de relâmpagos que está aí de bobeira."
+        },
+        "211": {
+            "recommendation": "Tempestade a caminho. Cuidado com os tímpanos, por favor."
+        },
+        "212": {
+            "recommendation": "Um dilúvio hoje.. Galochas e um colete salva-vidas são o mínimo necessário"
+        },
+        "221": {
+            "recommendation": "Tempo horrível. Jaquetas, guarda-chuvas... Oh droga, talvez você precise até de um bote"
+        },
+        "230": {
+            "recommendation": "Tempestades e um pouco de chuva. Guarda-chuvas + camadas de roupas hoje, temo eu"
+        },
+        "231": {
+            "recommendation": "Chuva + tempestades...você irá parecer um pateta se sair sem um casaco hoje"
+        },
+        "232": {
+            "recommendation": "Chuvas chegando. Guarda-chuvas, pelo amor de Deus!"
+        },
+        "300": {
+            "recommendation": "Bem, um pouco de chuva nunca matou ninguém. Até estou legalmente apto a dizer que... *apaga frenéticamente*"
+        },
+        "301": {
+            "recommendation": "Chuva, mas nem tanto. Seja sensato e leve um casaco, Cristo!"
+        },
+        "302": {
+            "recommendation": "Chuva, daquele tipo bem chatinho. Não deixe ela te pegar"
+        },
+        "310": {
+            "recommendation": "O tipo de chuva em que as pessoas dançam nos filmes. Você vai ficar bem"
+        },
+        "311": {
+            "recommendation": "Um pouco de chuva. Nada para se preocupar muito"
+        },
+        "312": {
+            "recommendation": "Mais chuva, temo eu. Você já sabe: Jaqueta ou casaco"
+        },
+        "313": {
+            "recommendation": "Aguaceiros previstos. Isso significa um banho grátis se você não levar um guarda-chuva"
+        },
+        "314": {
+            "recommendation": "Chovendo canivete. É necessário um guarda-chuva e um par de galochas grossas."
+        },
+        "321": {
+            "recommendation": "Chuva, mas do tipo que você sobrevive ficando dentro de casa. Guarda-chuva opcional"
+        },
+        "500": {
+            "recommendation": "Hoje você se safa apenas com um blusão. Aviso: eu não serei responsaibizado por quaisquer acidentes relacionados com a chuva"
+        },
+        "501": {
+            "recommendation": "Um pouco mais de chuva. Melhor levar um guarda-chuva, amigão"
+        },
+        "502": {
+            "recommendation": "Já está ficando chato. Guarda-chuva + jaqueta necessários"
+        },
+        "503": {
+            "recommendation": "Quantidades bíblicas de chuvas previstas. Guarda-chuva, jaqueta, casaco, blusas, colete salva-vidas, e um bote de reserva. Padrão"
+        },
+        "504": {
+            "recommendation": "Estou muito feliz em te dizer que você não sairá de casa hoje, pois irá se afogar na chuva lá fora"
+        },
+        "511": {
+            "recommendation": "Chuva, frio cortante, condições devastadoras, o de sempre. Seria bom procurar abrigo e permanecer dentro de casa"
+        },
+        "520": {
+            "recommendation": "Chuviscos previstos. Leve um guarda-chuva, pelo amor de Deus!"
+        },
+        "521": {
+            "recommendation": "Chuviscos previstos. Por favor, leve um guarda-chuva, pelo amor de Deus!"
+        },
+        "522": {
+            "recommendation": "Você ficará ensopado se ousar sair sem um conjunto de jaquetão e um baita guarda-chuva hoje"
+        },
+        "531": {
+            "recommendation": "Chuvas fortes. Você vai precisar de uma jaqueta, galochas e força em escala industrial para passar por esta"
+        },
+        "600": {
+            "recommendation": "Previsão de neve leve. Você vai ficar bem"
+        },
+        "601": {
+            "recommendation": "Neve. Mas você vai sobreviver. Leve um blusão, só por precaução"
+        },
+        "602": {
+            "recommendation": "Está feio lá fora. Ligue para o escritório e diga que está doente"
+        },
+        "611": {
+            "recommendation": "Guarda-chuva e casaco como padrão"
+        },
+        "615": {
+            "recommendation": "Guarda-chuva e casaco como padrão. Não diga que não te avisei"
+        },
+        "616": {
+            "recommendation": "Guarda-chuva + casaco + uma xícara de uma bebida quente"
+        },
+        "620": {
+            "recommendation": "Um casaco leve deve ser suficiente"
+        },
+        "621": {
+            "recommendation": "Chuva + neve. Poderia ser melhor. Poderia ser pior. Jaqueta + guarda-chuva recomendado"
+        },
+        "622": {
+            "recommendation": "Está uma zona de guerra lá fora. Jaqueta, guarda-chuva, casaco e capacete necessários"
+        },
+        "701": {
+            "recommendation": "O ar está denso com neblina e quase não chove. Vá com cuidado"
+        },
+        "702": {
+            "recommendation": "Você está sentindo cheiro de queimado? Eu sim..."
+        },
+        "711": {
+            "recommendation": "Aviso de fumaça - risco de potencial incêndio florestal. Esteja extremamente atento aos avisos meteorológicos mais atualizados"
+        },
+        "721": {
+            "recommendation": "Noite silenciosa, noite nebulosa ... você vai precisar de seus óculos de visão noturna"
+        },
+        "731": {
+            "recommendation": "Está tipo o Saara na rua. Vista o mínimo de roupas"
+        },
+        "741": {
+            "recommendation": "Tempo nebuloso. Visibilidade muito afetada. Tome muito cuidado ao dirigir, se necessário."
+        },
+        "751": {
+            "recommendation": "Potenciais tempestades de areia esperadas. Evite sair, se puder"
+        },
+        "761": {
+            "recommendation": "Potenciais tempestades de poeira são esperadas. Protejam-se e fiquem seguros"
+        },
+        "762": {
+            "recommendation": "Aviso de cinzas vulcânicas - fique dentro de casa sempre que possível"
+        },
+        "771": {
+            "recommendation": "Aviso de tempestade de neve - evite ficar ao ar livre, se puder"
+        },
+        "781": {
+            "recommendation": "Aviso de tornado - proteja-se ao primeiro sinal. Fique longe das janelas."
+        },
+        "800": {
+            "recommendation": "Céu limpo. O tipo de noite em que você se aconchega embaixo do telescópio"
+        },
+        "801": {
+            "recommendation": "Céu nublado em uma noite tempestuosa. Aconchegue-se com uma xícara quente"
+        },
+        "802": {
+            "recommendation": "Previsão de vento e nuvens. Voce vai querer um casaco"
+        },
+        "803": {
+            "recommendation": "Nublado e tempestuoso lá fora. Casaco necessário"
+        },
+        "804": {
+            "recommendation": "Nublado, com chance de chuva de canivetes"
+        },
+        "900": {
+            "recommendation": "⚠️ Alerta de tornado ⚠️ Procure um abrigo seguro imediatamente. fique longe de portas, janelas, paredes externas e proteja sua cabeça!"
+        },
+        "902": {
+            "recommendation": "⚠️ Alerta de furacão ⚠️ Fique dentro de casa e longe das janelas. Esteja atento às informações mais recentes sobre emergências"
+        },
+        "903": {
+            "recommendation": "Flocos de neve caindo com um vento frio soprando. Estou no pólo norte?"
+        },
+        "904": {
+            "recommendation": "Está pegando fogo lá fora . Preciso de um banho de gelo"
+        },
+        "906": {
+            "recommendation": "Chuva de granizo à frente . Proteja-se"
+        },
+        "957": {
+            "recommendation": "Ventos fortes. Segure-se em algo (ou alguém) forte rsrsrs"
+        }
     }
-  },
-  "night": {
-    "200": {
-      "recommendation": "Tempestuoso com um pouco de chuva. Casaco necessário"
-    },
-    "201": {
-      "recommendation": "Tempestuoso com aguaceiros. Pegue um guarda-chuva ao sair"
-    },
-    "202": {
-      "recommendation": "Hoje choverá torrencialmente lá fora. Pegue todos os guarda-chuvas que conseguir"
-    },
-    "210": {
-      "recommendation": "Tempestade leve a caminho. Agora é um bom momento para usar aquele detector de relâmpagos que está aí de bobeira."
-    },
-    "211": {
-      "recommendation": "Tempestade a caminho. Cuidado com os tímpanos, por favor."
-    },
-    "212": {
-      "recommendation": "Um dilúvio hoje.. Galochas e um colete salva-vidas são o mínimo necessário"
-    },
-    "221": {
-      "recommendation": "Tempo horrível. Jaquetas, guarda-chuvas... Oh droga, talvez você precise até de um bote"
-    },
-    "230": {
-      "recommendation": "Tempestades e um pouco de chuva. Guarda-chuvas + camadas de roupas hoje, temo eu"
-    },
-    "231": {
-      "recommendation": "Chuva + tempestades...você irá parecer um pateta se sair sem um casaco hoje"
-    },
-    "232": {
-      "recommendation": "Chuvas chegando. Guarda-chuvas, pelo amor de Deus!"
-    },
-    "300": {
-      "recommendation": "Bem, um pouco de chuva nunca matou ninguém. Até estou legalmente apto a dizer que... *apaga frenéticamente*"
-    },
-    "301": {
-      "recommendation": "Chuva, mas nem tanto. Seja sensato e leve um casaco, Cristo!"
-    },
-    "302": {
-      "recommendation": "Chuva, daquele tipo bem chatinho. Não deixe ela te pegar"
-    },
-    "310": {
-      "recommendation": "O tipo de chuva em que as pessoas dançam nos filmes. Você vai ficar bem"
-    },
-    "311": {
-      "recommendation": "Um pouco de chuva. Nada para se preocupar muito"
-    },
-    "312": {
-      "recommendation": "Mais chuva, temo eu. Você já sabe: Jaqueta ou casaco"
-    },
-    "313": {
-      "recommendation": "Aguaceiros previstos. Isso significa um banho grátis se você não levar um guarda-chuva"
-    },
-    "314": {
-      "recommendation": "Chovendo canivete. É necessário um guarda-chuva e um par de galochas grossas."
-    },
-    "321": {
-      "recommendation": "Chuva, mas do tipo que você sobrevive ficando dentro de casa. Guarda-chuva opcional"
-    },
-    "500": {
-      "recommendation": "Hoje você se safa apenas com um blusão. Aviso: eu não serei responsaibizado por quaisquer acidentes relacionados com a chuva"
-    },
-    "501": {
-      "recommendation": "Um pouco mais de chuva. Melhor levar um guarda-chuva, amigão"
-    },
-    "502": {
-      "recommendation": "Já está ficando chato. Guarda-chuva + jaqueta necessários"
-    },
-    "503": {
-      "recommendation": "Quantidades bíblicas de chuvas previstas. Guarda-chuva, jaqueta, casaco, blusas, colete salva-vidas, e um bote de reserva. Padrão"
-    },
-    "504": {
-      "recommendation": "Estou muito feliz em te dizer que você não sairá de casa hoje, pois irá se afogar na chuva lá fora"
-    },
-    "511": {
-      "recommendation": "Chuva, frio cortante, condições devastadoras, o de sempre. Seria bom procurar abrigo e permanecer dentro de casa"
-    },
-    "520": {
-      "recommendation": "Chuviscos previstos. Leve um guarda-chuva, pelo amor de Deus!"
-    },
-    "521": {
-      "recommendation": "Chuviscos previstos. Por favor, leve um guarda-chuva, pelo amor de Deus!"
-    },
-    "522": {
-      "recommendation": "Você ficará ensopado se ousar sair sem um conjunto de jaquetão e um baita guarda-chuva hoje"
-    },
-    "531": {
-      "recommendation": "Chuvas fortes. Você vai precisar de uma jaqueta, galochas e força em escala industrial para passar por esta"
-    },
-    "600": {
-      "recommendation": "Previsão de neve leve. Você vai ficar bem"
-    },
-    "601": {
-      "recommendation": "Neve. Mas você vai sobreviver. Leve um blusão, só por precaução"
-    },
-    "602": {
-      "recommendation": "Está feio lá fora. Ligue para o escritório e diga que está doente"
-    },
-    "611": {
-      "recommendation": "Guarda-chuva e casaco como padrão"
-    },
-    "615": {
-      "recommendation": "Guarda-chuva e casaco como padrão. Não diga que não te avisei"
-    },
-    "616": {
-      "recommendation": "Guarda-chuva + casaco + uma xícara de uma bebida quente"
-    },
-    "620": {
-      "recommendation": "Um casaco leve deve ser suficiente"
-    },
-    "621": {
-      "recommendation": "Chuva + neve. Poderia ser melhor. Poderia ser pior. Jaqueta + guarda-chuva recomendado"
-    },
-    "622": {
-      "recommendation": "Está uma zona de guerra lá fora. Jaqueta, guarda-chuva, casaco e capacete necessários"
-    },
-    "701": {
-      "recommendation": "O ar está denso com neblina e quase não chove. Vá com cuidado"
-    },
-    "702": {
-      "recommendation": "Você está sentindo cheiro de queimado? Eu sim..."
-    },
-    "711": {
-      "recommendation": "Aviso de fumaça - risco de potencial incêndio florestal. Esteja extremamente atento aos avisos meteorológicos mais atualizados"
-    },
-    "721": {
-      "recommendation": "Noite silenciosa, noite nebulosa ... você vai precisar de seus óculos de visão noturna"
-    },
-    "731": {
-      "recommendation": "Está tipo o Saara na rua. Vista o mínimo de roupas"
-    },
-    "741": {
-      "recommendation": "Tempo nebuloso. Visibilidade muito afetada. Tome muito cuidado ao dirigir, se necessário."
-    },
-    "751": {
-      "recommendation": "Potenciais tempestades de areia esperadas. Evite sair, se puder"
-    },
-    "761": {
-      "recommendation": "Potenciais tempestades de poeira são esperadas. Protejam-se e fiquem seguros"
-    },
-    "762": {
-      "recommendation": "Aviso de cinzas vulcânicas - fique dentro de casa sempre que possível"
-    },
-    "771": {
-      "recommendation": "Aviso de tempestade de neve - evite ficar ao ar livre, se puder"
-    },
-    "781": {
-      "recommendation": "Aviso de tornado - proteja-se ao primeiro sinal. Fique longe das janelas."
-    },
-    "800": {
-      "recommendation": "Céu limpo. O tipo de noite em que você se aconchega embaixo do telescópio"
-    },
-    "801": {
-      "recommendation": "Céu nublado em uma noite tempestuosa. Aconchegue-se com uma xícara quente"
-    },
-    "802": {
-      "recommendation": "Previsão de vento e nuvens. Voce vai querer um casaco"
-    },
-    "803": {
-      "recommendation": "Nublado e tempestuoso lá fora. Casaco necessário"
-    },
-    "804": {
-      "recommendation": "Nublado, com chance de chuva de hambúrgueres"
-    },
-    "900": {
-      "recommendation": "⚠️ Alerta de tornado ⚠️ Procure um abrigo seguro imediatamente. fique longe de portas, janelas, paredes externas e proteja sua cabeça!"
-    },
-    "902": {
-      "recommendation": "⚠️ Alerta de furacão ⚠️ Fique dentro de casa e longe das janelas. Esteja atento às informações mais recentes sobre emergências"
-    },
-    "903": {
-      "recommendation": "Flocos de neve caindo com um vento frio soprando. Estou no pólo norte?"
-    },
-    "904": {
-      "recommendation": "Está pegando fogo lá fora . Preciso de um banho de gelo"
-    },
-    "906": {
-      "recommendation": "Chuva de granizo à frente . Proteja-se"
-    },
-    "957": {
-      "recommendation": "Ventos fortes. Segure-se em algo (ou alguém) forte rsrsrs"
-    }
-  }
 }
