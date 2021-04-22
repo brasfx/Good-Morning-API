@@ -36,7 +36,7 @@ export default function News({
       <p className="tracking-wide text-justify pt-5 text-xs">
         Por{' '}
         <a
-          clasName="text-blue-600"
+          className="text-blue-600"
           target="_blank"
           rel="noreferrer"
           href={sourceUrl}

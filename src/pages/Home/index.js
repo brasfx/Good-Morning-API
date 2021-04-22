@@ -11,7 +11,7 @@ import NavBar from '../../components/navbar';
 
 export default function Home() {
   const searchTimeout = 1000;
-  const [location, setLocation] = useState('');
+  const [location, setLocation] = useState([]);
   const [error, setError] = useState(null);
   const [forecast, setForecast] = useState([]);
   const [weather, setWeather] = useState({});
@@ -79,7 +79,7 @@ export default function Home() {
   useEffect(() => {
     async function getUserLocation() {
       setError(null);
-      setIsSearching(false);
+      setIsSearching(true);
       try {
         const user = await userLocation();
         setLocation(user);

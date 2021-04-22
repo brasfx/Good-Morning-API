@@ -11,9 +11,9 @@ export default function AboutPage() {
         Distribuidos do curso de Engenharia de Computação da Universidade
         Federal de Rio Grande - FURG.
         <p>
-          Good Morning API é nosso serviço onde disponibilizamos ao usuário a
-          ter acesso a previsão do tempo de acordo sua cidade e noticias que
-          estão no trend topic do país no momento.
+          Good Morning API é nosso serviço onde disponibilizamos ao usuário ter
+          acesso a previsão do tempo de acordo sua cidade e noticias que estão
+          no trend topic do país no momento.
         </p>
       </section>
       <section>

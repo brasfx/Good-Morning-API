@@ -46,7 +46,7 @@
       "recommendation": "Um pouco de chuva. Nada para se preocupar muito"
     },
     "312": {
-      "recommendation": "Mais chuva, temo eu. Você já sabe: Jaqueta ou casaco"
+      "recommendation": "Mais chuva, temo eu. Você já sabe: jaqueta ou casaco"
     },
     "313": {
       "recommendation": "Aguaceiros previstos. Isso significa um banho grátis se você não levar um guarda-chuva"
@@ -58,7 +58,7 @@
       "recommendation": "Chuva, mas do tipo que você sobrevive ficando dentro de casa. Guarda-chuva opcional"
     },
     "500": {
-      "recommendation": "Hoje você se safa apenas com um blusão. Aviso: eu não serei responsaibizado por quaisquer acidentes relacionados com a chuva"
+      "recommendation": "Hoje você se safa apenas com um blusão. Aviso: eu não serei responsabilizado por quaisquer acidentes relacionados com a chuva"
     },
     "501": {
       "recommendation": "Um pouco mais de chuva. Melhor levar um guarda-chuva, amigão"
@@ -115,7 +115,7 @@
       "recommendation": "Um casaco leve deve ser suficiente"
     },
     "621": {
-      "recommendation": "Chuva + neve. Poderia ser melhor. Poderia ser pior. Jaqueta + guarda-chuvaa recomendado"
+      "recommendation": "Chuva + neve. Poderia ser melhor. Poderia ser pior. Jaqueta + guarda-chuva é recomendado"
     },
     "622": {
       "recommendation": "Está uma zona de guerra lá fora. Jaqueta, guarda-chuva, casaco e capacete necessários"
@@ -171,7 +171,7 @@
   },
   "night": {
     "200": {
-      "recommendation": "Tempestuoso com um pouco de chuva. Casaco necessário"
+      "recommendation": "Tempestuoso com um pouco de chuva. Casaco é necessário"
     },
     "201": {
       "recommendation": "Tempestuoso com aguaceiros. Pegue um guarda-chuva ao sair"
