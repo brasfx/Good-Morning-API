@@ -9,16 +9,23 @@ export default async function fetchNews() {
     `${NEWS_URL}/top-headlines?country=br&apiKey=${NEWS_KEY}`
   );
   const news = await response.json();
-  const articles = news.articles.map(
-    ({ content, description, url, urlToImage, title }) => {
-      return {
-        content,
-        description,
-        url,
-        urlToImage,
-        title,
-      };
+
+  if (response.ok) {
+    if (Object.entries(news).length) {
+      return news.articles.map(
+        ({ content, description, url, urlToImage, title }) => {
+          return {
+            content,
+            description,
+            url,
+            urlToImage,
+            title,
+          };
+        }
+      );
     }
-  );
-  return articles;
+  } else {
+    const error = new Error(`Não há noticiais no momento!"`);
+    return Promise.reject(error);
+  }
 }
