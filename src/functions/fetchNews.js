@@ -10,7 +10,6 @@ export default async function fetchNews() {
     `${NEWS_URL}/top-headlines?country=br&token=${NEWS_KEY}`
   );
   const news = await response.json();
-  console.log(news);
 
   if (response.ok) {
     if (Object.entries(news).length) {

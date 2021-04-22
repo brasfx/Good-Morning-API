@@ -8,7 +8,7 @@ export default async function fetchForecast(location, units) {
     `${API_URL}/forecast/?q=${location}&units=${units}&lang=pt_br&APPID=${API_KEY}`
   );
   const forecast = await response.json();
-  console.log(forecast);
+
   if (response.ok) {
     if (Object.entries(forecast).length) {
       return forecast.list

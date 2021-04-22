@@ -10,7 +10,7 @@ export default async function fetchWeather(location, units) {
     `${API_URL}/weather/?q=${location}&units=${units}&lang=pt_br&APPID=${API_KEY}`
   );
   const weather = await response.json();
-  console.log(weather);
+
   if (response.ok) {
     if (Object.entries(weather).length) {
       return mapDataToWeatherInterface(weather);

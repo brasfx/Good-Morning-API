@@ -1,5 +1,4 @@
 import dayjs from 'dayjs';
-import utc from 'dayjs/plugin/utc';
 
 export default function mapDataToNewsInterface(articles) {
   const mapped = {
@@ -12,8 +11,7 @@ export default function mapDataToNewsInterface(articles) {
     name: articles.source.name,
     sourceUrl: articles.source.url,
   };
-  dayjs.utc().local().format();
-  // remove undefined fields
+
   Object.entries(mapped).map(
     ([key, value]) => value === undefined && delete mapped[key]
   );

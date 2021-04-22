@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import debounce from 'lodash-es/debounce';
 import fetchWeather from '../../functions/fetchWeather';
 import fetchForecast from '../../functions/fetchForecast';
+import userLocation from '../../functions/fetchUserLocation';
 import WeatherCard from '../../components/weatherCard';
 import Search from '../../components/search';
 import Loading from '../../components/loading';
@@ -10,7 +11,7 @@ import NavBar from '../../components/navbar';
 
 export default function Home() {
   const searchTimeout = 1000;
-  const [location, setLocation] = useState('Porto Alegre');
+  const [location, setLocation] = useState('');
   const [error, setError] = useState(null);
   const [forecast, setForecast] = useState([]);
   const [weather, setWeather] = useState({});
@@ -42,6 +43,19 @@ export default function Home() {
       setLocation(debouncedSearchTerm);
     }
   }, [debouncedSearchTerm, isSearching]);
+
+  useEffect(() => {
+    async function getUserLocation() {
+      try {
+        const location = await userLocation();
+        setLocation(location);
+      } catch (err) {
+        console.log(err);
+      }
+    }
+
+    getUserLocation();
+  }, []);
 
   useEffect(() => {
     async function getWeather() {
