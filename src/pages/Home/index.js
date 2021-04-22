@@ -39,18 +39,6 @@ export default function Home() {
   };
 
   useEffect(() => {
-    async function getUserLocation() {
-      try {
-        const userLocation = await userLocation();
-        setLocation(userLocation);
-      } catch (err) {
-        console.log(err);
-      }
-    }
-    getUserLocation();
-  }, []);
-
-  useEffect(() => {
     if (debouncedSearchTerm) {
       setLocation(debouncedSearchTerm);
     }
@@ -87,6 +75,21 @@ export default function Home() {
 
     getForecast();
   }, [location, units]);
+
+  useEffect(() => {
+    async function getUserLocation() {
+      setError(null);
+      setIsSearching(false);
+      try {
+        const user = await userLocation();
+        setLocation(user);
+        setDebouncedSearchTerm(user);
+      } catch (err) {
+        setError(err);
+      }
+    }
+    getUserLocation();
+  }, []);
 
   return (
     <div>
