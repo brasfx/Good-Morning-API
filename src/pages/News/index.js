@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import fetchNews from '../../functions/fetchNews';
-import NewsCard from '../../components/news/news-card';
+import NewsCard from '../../components/news/newsCard';
 import NavBar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Loading from '../../components/loading';

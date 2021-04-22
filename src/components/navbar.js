@@ -60,28 +60,35 @@ export default function NavBar() {
             </button>
           </div>
           <div className="hidden md:contents">
-            <Brightness4Icon style={{ color: 'yellow' }} />
+            <Brightness4Icon className="text-yellow-400 hover:text-blue-600" />
             <Link to="/">
-              <h3 className="ml-1 text-xl font-semibold">Bom dia Brasil</h3>
+              <h3 className="ml-1 text-xl font-semibold text-black hover:text-gray-900">
+                Bom dia Brasil
+              </h3>
             </Link>
             <div className="flex-1 flex items-center justify-end sm:items-stretch sm:justify-end">
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4 items-center">
                   <Link
+                    to="/"
+                    className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-lg font-medium"
+                    onClick={toggleButton}
+                  >
+                    Inicio
+                  </Link>
+                  <Link
                     to="/news"
                     className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    News
+                    Noticias
                   </Link>
 
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="/about"
-                    className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
+                  <Link
+                    to="/about"
+                    className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    About
-                  </a>
+                    Sobre
+                  </Link>
                 </div>
               </div>
             </div>
@@ -99,23 +106,21 @@ export default function NavBar() {
               className="text-indigo-700 hover:bg-green-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               onClick={toggleButton}
             >
-              Home
+              Inicio
             </Link>
             <Link
               to="/news"
               className="text-indigo-700 hover:bg-green-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               onClick={toggleButton}
             >
-              News
+              Noticias
             </Link>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/about"
+            <Link
+              to="/about"
               className="text-indigo-700 hover:bg-green-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
-              About
-            </a>
+              Sobre
+            </Link>
           </div>
         </div>
       ) : null}

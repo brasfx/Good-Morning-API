@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import debounce from 'lodash-es/debounce';
 import fetchWeather from '../../functions/fetchWeather';
 import fetchForecast from '../../functions/fetchForecast';
-import WeatherCard from '../../components/weather-card';
+import WeatherCard from '../../components/weatherCard';
 import Search from '../../components/search';
 import Loading from '../../components/loading';
 import Footer from '../../components/footer';

@@ -6,11 +6,15 @@ export default function Footer() {
       <p className="text-center items-center ">
         <span className="text-center text-gray-600">
           Direitos reservados{' '}
-          <a className="text-center text-indigo-600" href="https://github.com/">
+          <a
+            className="text-center text-indigo-600"
+            href="https://github.com/brasfx/Good-Morning-API"
+            target="_blank"
+          >
             {' '}
             Good Morning API
           </a>
-          <span className="ml-4">&copy;2021 - now</span>
+          <span className="ml-4">&copy;2021</span>
         </span>
       </p>
     </footer>

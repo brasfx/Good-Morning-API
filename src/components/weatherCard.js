@@ -1,29 +1,26 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import dayjs from 'dayjs';
-import Forecast from "./forecast";
+import Forecast from './forecast';
 import * as weatherIcons from '../json/icons';
 import * as recommendations from '../json/recommendations';
-import utc from "dayjs/plugin/utc"
+import utc from 'dayjs/plugin/utc';
 import * as isLeapYear from 'dayjs/plugin/isLeapYear';
 import 'dayjs/locale/pt-br';
 import SettingsApplicationsIcon from '@material-ui/icons/SettingsApplications';
 dayjs.extend(utc);
-dayjs.extend(isLeapYear) 
-dayjs.locale('pt-br')
+dayjs.extend(isLeapYear);
+dayjs.locale('pt-br');
 
-export default function  WeatherCard (props ){
+export default function WeatherCard(props) {
   const iconPrefix = `wi wi-`;
   const { weather, forecast, units, onUnitsChange } = props;
   const [isSettingsMenuOpened, setIsSettingsMenuOpened] = useState(false);
   const [isMetric, setIsMetric] = useState(
-    units.match(/metric/i) ? true : false,
+    units.match(/metric/i) ? true : false
   );
 
   const date = dayjs().isValid(weather.date) ? weather.date : '';
-  const currentTime = dayjs
-    .utc(date)
-    .utcOffset(weather.timezone)
-    .format();
+  const currentTime = dayjs.utc(date).utcOffset(weather.timezone).format();
   const sunrise = dayjs
     .utc(weather.sunrise)
     .utcOffset(weather.timezone)
@@ -54,44 +51,41 @@ export default function  WeatherCard (props ){
 
   return (
     <>
-      <div className="shadow-lg rounded-xl h-auto overflow-hidden w-full md:w-3/5 lg:w-1/2 m-auto mt-4">
+      <div className="shadow-lg rounded-xl h-auto overflow-hidden w-full md:w-3/5 lg:w-1/2 m-auto mt-4 p-10 pt-0">
         <div className="m-4">
           <div className="sm">
-            <p className="tracking-wide text-2xl font-semibold">
+            <p className="tracking-wide text-2xl font-semibold font-serif">
               {weather.location}, {weather.country}
             </p>
-            <p className="text-gray-500 tracking-wide">
+            <p className="text-gray-500 tracking-wide ">
               {dayjs(date).format('dddd')},{' '}
-              {dayjs
-                .utc(date)
-                .utcOffset(weather.timezone)
-                .format('h:mm A')}
-              , {description}
+              {dayjs.utc(date).utcOffset(weather.timezone).format('h:mm A')},{' '}
+              {description}
             </p>
           </div>
-          <div className="flex flex-row justify-between my-8 lg:my-4 text-5xl lg:text-6xl tracking-wide">
+          <div className="flex flex-row justify-between my-8 lg:my-4 text-5xl lg:text-6xl tracking-wide ">
             <span className="mt-6 md:mt-10 text-gray-500 font-light">
               {weather.temperature}&deg;
               <span className="flex flex-col text-gray-500 font-normal tracking-wide text-base mt-1">
                 Sensacão térmica: {weather.feels_like}&deg;
               </span>{' '}
             </span>
-            <div className="text-8xl sm:text-9xl mt-4 text-indigo-700">
-              <span className={icon} style={{color:"red"}}></span>
+            <div className="text-8xl sm:text-9xl mt-4 text-indigo-500">
+              <span className={icon}></span>
             </div>
           </div>
-          <div className="text-indigo-700 mt-1">
+          <div className="text-indigo-500 mt-1">
             <span className="wi wi-strong-wind text-xl"></span>
             <span className="ml-1 mr-2 text-gray-500 tracking-wide">
-            Vento: {weather.wind_speed}
-              {isMetric ? ` km/h` : ` mp/h`} 
+              Vento: {weather.wind_speed}
+              {isMetric ? ` km/h` : ` mp/h`}
             </span>
             <span className="wi wi-humidity text-xl"></span>
             <span className="ml-1 text-gray-500 tracking-wide">
-             Umidade: {weather.humidity}% 
+              Umidade: {weather.humidity}%
             </span>
           </div>
-          <div className="mt-10 text-center text-2xl text-gray-500 tracking-wide">
+          <div className="mt-10 text-center text-xl text-gray-500 tracking-wide font-mono">
             {recommendation}
           </div>
           <Forecast forecast={forecast} />
@@ -106,7 +100,7 @@ export default function  WeatherCard (props ){
           aria-haspopup="true"
           onClick={toggleSettingsMenu}
         >
-        <SettingsApplicationsIcon style={{fontSize: 30,color:'red'}}/>
+          <SettingsApplicationsIcon className="text-lg text-red-600" />
         </button>
         {isSettingsMenuOpened ? (
           <div
@@ -134,4 +128,4 @@ export default function  WeatherCard (props ){
       </div>
     </>
   );
-};
+}
