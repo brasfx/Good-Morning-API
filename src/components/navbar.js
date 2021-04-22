@@ -1,8 +1,8 @@
-import React ,{useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 
-export default function  NavBar () {
+export default function NavBar() {
   const [isMenuOpened, setIsMenuOpened] = useState(false);
 
   const toggleButton = () => {
@@ -12,7 +12,7 @@ export default function  NavBar () {
   return (
     <nav className="mb-4">
       <div className="2xl:max-w-full xl:max-w-full lg:max-w-full md:max-w-full mx-auto sm:px-6 md:px-0 lg:px-2 xl:px-0">
-        <div className="relative flex items-center justify-between h-20 bg-green-200 " style={{padding:"50px"}}>
+        <div className="relative flex items-center justify-between h-20 bg-green-200 p-10 pr-32">
           <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
             <button
               type="button"
@@ -60,7 +60,7 @@ export default function  NavBar () {
             </button>
           </div>
           <div className="hidden md:contents">
-            <Brightness4Icon style={{color:"yellow"}}/>
+            <Brightness4Icon style={{ color: 'yellow' }} />
             <Link to="/">
               <h3 className="ml-1 text-xl font-semibold">Bom dia Brasil</h3>
             </Link>
@@ -80,7 +80,7 @@ export default function  NavBar () {
                     href="/about"
                     className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
                   >
-                  About
+                    About
                   </a>
                 </div>
               </div>
@@ -121,4 +121,4 @@ export default function  NavBar () {
       ) : null}
     </nav>
   );
-};
+}

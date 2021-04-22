@@ -1,107 +1,105 @@
-import React,{useState,useEffect,useMemo} from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import debounce from 'lodash-es/debounce';
-import fetchWeather from "../../functions/fetchWeather";
-import fetchForecast from "../../functions/fetchForecast";
-import WeatherCard from "../../components/weather-card";
-import Search from "../../components/search";
-import Loading from "../../components/loading";
+import fetchWeather from '../../functions/fetchWeather';
+import fetchForecast from '../../functions/fetchForecast';
+import WeatherCard from '../../components/weather-card';
+import Search from '../../components/search';
+import Loading from '../../components/loading';
 import Footer from '../../components/footer';
 import NavBar from '../../components/navbar';
 
+export default function Home() {
+  const searchTimeout = 1000;
+  const [location, setLocation] = useState('Porto Alegre');
+  const [error, setError] = useState(null);
+  const [forecast, setForecast] = useState([]);
+  const [weather, setWeather] = useState({});
+  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
+  const [units, setUnits] = useState('metric');
 
-export default function Home(){
+  const debounceSearch = useMemo(
+    () =>
+      debounce((searchTerm) => {
+        setDebouncedSearchTerm(searchTerm);
+      }, searchTimeout),
+    []
+  );
 
-const searchTimeout = 1000;
-const [location, setLocation] = useState('Porto Alegre');
-const [error, setError] = useState(null);
-const [forecast, setForecast] = useState([]);
-const [weather, setWeather] = useState({});
-const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
-const [isSearching, setIsSearching] = useState(false);
-const [units, setUnits] = useState('metric');
-
-const debounceSearch = useMemo(() =>
-    debounce(searchTerm => {
-      setDebouncedSearchTerm(searchTerm);
-    }, searchTimeout),
-  [],);
-
-const handleLocationChange = (event) => {
-  if (event.target.value) {
-    setIsSearching(true);
-  }
-  debounceSearch(event.target.value);
-};
-
-const handleUnitsChange = (newUnits) => {
-  setUnits(newUnits);
-};
-
-useEffect(() => {
-  if (debouncedSearchTerm) {
-    setLocation(debouncedSearchTerm);
-  }
-}, [debouncedSearchTerm, isSearching]);
-
-useEffect(() => {
-  async function getWeather() {
-    setError(null);
-    setIsSearching(false);
-
-    try {
-      const weather = await fetchWeather(location, units);
-      setWeather(weather);
-    } catch (err) {
-      setError(err);
+  const handleLocationChange = (event) => {
+    if (event.target.value) {
+      setIsSearching(true);
     }
-  }
+    debounceSearch(event.target.value);
+  };
 
-  getWeather();
-}, [location, units]);
+  const handleUnitsChange = (newUnits) => {
+    setUnits(newUnits);
+  };
 
-useEffect(() => {
-  async function getForecast() {
-    setError(null);
-    setIsSearching(false);
-
-    try {
-      const forecast = await fetchForecast(location, units);
-      setForecast(forecast);
-    } catch (err) {
-      setError(err);
+  useEffect(() => {
+    if (debouncedSearchTerm) {
+      setLocation(debouncedSearchTerm);
     }
-  }
+  }, [debouncedSearchTerm, isSearching]);
 
-  getForecast();
-}, [location, units]);
+  useEffect(() => {
+    async function getWeather() {
+      setError(null);
+      setIsSearching(false);
 
-return(
-<div>
-{(weather && Object.keys(weather).length) ||
-    (forecast && Object.keys(forecast).length) ? (
-      <main>
-        <div className="mx-auto w-5/6 md:w-full 2xl:max-w-7xl xl:max-w-6xl">
-          <NavBar/>
-          <Search
-            location={location}
-            error={error}
-            isSearching={isSearching}
-            onLocationChange={handleLocationChange}
-          />
-          <WeatherCard
-            forecast={forecast}
-            weather={weather}
-            units={units}
-            onUnitsChange={handleUnitsChange}
-          />
-          <Footer/>
-        </div>
-      </main>
-      
-    ) : (
-      <Loading />
-    )}
-</div>
-  
-)
+      try {
+        const weather = await fetchWeather(location, units);
+        setWeather(weather);
+      } catch (err) {
+        setError(err);
+      }
+    }
+
+    getWeather();
+  }, [location, units]);
+
+  useEffect(() => {
+    async function getForecast() {
+      setError(null);
+      setIsSearching(false);
+
+      try {
+        const forecast = await fetchForecast(location, units);
+        setForecast(forecast);
+      } catch (err) {
+        setError(err);
+      }
+    }
+
+    getForecast();
+  }, [location, units]);
+
+  return (
+    <div>
+      {(weather && Object.keys(weather).length) ||
+      (forecast && Object.keys(forecast).length) ? (
+        <main>
+          <div className="mx-auto w-5/6 md:w-full 2xl:w-full xl:w-full">
+            <NavBar />
+            <Search
+              location={location}
+              error={error}
+              isSearching={isSearching}
+              onLocationChange={handleLocationChange}
+            />
+            <WeatherCard
+              forecast={forecast}
+              weather={weather}
+              units={units}
+              onUnitsChange={handleUnitsChange}
+            />
+            <Footer />
+          </div>
+        </main>
+      ) : (
+        <Loading />
+      )}
+    </div>
+  );
 }
