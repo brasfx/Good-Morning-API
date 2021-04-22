@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import mapDataToNewsInterface from './mapDataToNewsInterface';
 dotenv.config();
 
 export default async function fetchNews() {
@@ -12,17 +13,18 @@ export default async function fetchNews() {
 
   if (response.ok) {
     if (Object.entries(news).length) {
-      return news.articles.map(
-        ({ content, description, url, urlToImage, title }) => {
-          return {
-            content,
-            description,
-            url,
-            urlToImage,
-            title,
-          };
-        }
-      );
+      return news.articles.map(mapDataToNewsInterface);
+      // return news.articles.map(
+      //   ({ content, description, url, urlToImage, title }) => {
+      //     return {
+      //       content,
+      //       description,
+      //       url,
+      //       urlToImage,
+      //       title,
+      //     };
+      //   }
+      // );
     }
   } else {
     const error = new Error(`Não há noticiais no momento!"`);

@@ -9,16 +9,16 @@ export default function News() {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    async function getWeather() {
+    async function getNews() {
       try {
         const news = await fetchNews();
-        setNews(Object.assign([], news));
+        setNews(news);
       } catch (err) {
         console.log(err);
       }
     }
 
-    getWeather();
+    getNews();
   }, []);
 
   return (
