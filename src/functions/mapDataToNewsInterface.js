@@ -4,7 +4,7 @@ export default function mapDataToNewsInterface(articles) {
     content: articles.content,
     description: articles.description,
     url: articles.url,
-    urlToImage: articles.urlToImage,
+    image: articles.image,
     publishedAt: articles.publishedAt,
   };
 

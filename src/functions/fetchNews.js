@@ -7,9 +7,10 @@ export default async function fetchNews() {
   const NEWS_KEY = process.env.REACT_APP_NEWS_KEY;
 
   const response = await window.fetch(
-    `${NEWS_URL}/top-headlines?country=br&apiKey=${NEWS_KEY}`
+    `${NEWS_URL}/top-headlines?country=br&token=${NEWS_KEY}`
   );
   const news = await response.json();
+  console.log(news);
 
   if (response.ok) {
     if (Object.entries(news).length) {

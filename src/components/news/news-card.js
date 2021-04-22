@@ -14,7 +14,7 @@ export default function NewsCard({ news }) {
             title={article.title}
             description={article.description}
             url={article.url}
-            urlToImage={article.urlToImage}
+            image={article.image}
           />
         );
       })}
