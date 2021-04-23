@@ -70,7 +70,7 @@ export default function WeatherCard(props) {
                 Sensacão térmica: {weather.feels_like}&deg;
               </span>{' '}
             </span>
-            <div className="text-8xl sm:text-9xl mt-4 text-indigo-500">
+            <div className="text-8xl sm:text-9xl mt-4 text-indigo-500 hover:text-indigo-600">
               <span className={icon}></span>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function WeatherCard(props) {
         </button>
         {isSettingsMenuOpened ? (
           <div
-            className="origin-top mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+            className="origin-top mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none font-serif"
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="user-menu"

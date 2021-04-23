@@ -34,7 +34,7 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://openweathermap.org/api"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             Weather API
           </a>{' '}
@@ -46,7 +46,7 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://gnews.io/"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             GNews API
           </a>{' '}
@@ -62,7 +62,7 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://www.javascript.com/"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             😍 JavaScript
           </a>{' '}
@@ -73,7 +73,7 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://pt-br.reactjs.org/"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             ⚛️ React
           </a>{' '}
@@ -83,7 +83,7 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://tailwindcss.com/"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             🌈 Tailwind CSS
           </a>{' '}
@@ -93,13 +93,13 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://vercel.com/"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             ⚙ Vercel
           </a>{' '}
         </p>
       </section>
-      <section>
+      <section className="font-serif">
         <p className="pt-5 pb-2 font-bold text-xl font-serif">
           Desenvolvedores
         </p>
@@ -108,7 +108,7 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://github.com/brasfx"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             Davi Ribeiro
           </a>{' '}
@@ -118,20 +118,20 @@ export default function AboutPage() {
           <a
             target="_blank"
             href="https://github.com/pevferreira"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             Pedro Ferreira
           </a>{' '}
         </p>
       </section>
-      <section>
+      <section className="font-serif">
         <p className="pt-5 pb-2 font-bold text-xl font-serif">Professor</p>
         <p>
           {' '}
           <a
             target="_blank"
             href="http://www.dalmazo.com/"
-            className="text-indigo-600"
+            className="hover:text-indigo-800 text-indigo-600"
           >
             Bruno Dalmazo
           </a>{' '}

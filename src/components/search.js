@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Search (props){
+export default function Search(props) {
   const { error, isSearching, onLocationChange } = props;
 
   return (
@@ -33,7 +33,7 @@ export default function Search (props){
           role="search"
           onChange={onLocationChange}
           placeholder="Insira o nome do local"
-          className="w-48 md:w-96 mr-8 outline-none placeholder-gray-500"
+          className="w-48 md:w-96 mr-8 outline-none placeholder-gray-500 font-serif"
         />
         {isSearching ? (
           <svg
@@ -61,4 +61,4 @@ export default function Search (props){
       </div>
     </div>
   );
-};
+}

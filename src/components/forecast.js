@@ -25,7 +25,7 @@ export default function Forecast(props) {
               <span className="flex-1 text-left">
                 {dayjs(item.dt_txt).format('dddd')}
               </span>
-              <span className="text-purple-500 text-2xl">
+              <span className="text-purple-500 hover:text-purple-600 text-2xl">
                 <span className={icon}></span>
               </span>
               <span className="flex-1 text-right">{item.max}&deg;</span>
