@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 
 export default function NavBar() {
-  const [isMenuOpened, setIsMenuOpened] = useState(false);
+  const [isMenuOpened, setIsMenuOpened] = useState(false); // estado do menu, se abertou ou não 
 
+  //função para mudar estado e setar novo estado do menu
   const toggleButton = () => {
     setIsMenuOpened(!isMenuOpened);
   };
@@ -127,3 +128,10 @@ export default function NavBar() {
     </nav>
   );
 }
+
+/* Aqui temos nosso componente Navbar que é importado em todas as páginas, onde estão disponibilizados 
+   link de acesso para outras páginas. Como usamos o conceito de páginas responsivas, ao se diminuir a 
+   proporção das páginas, surge um toogle como em uma versão mobile.
+   Usamos basicamnete css e tags html para montagem desse componente, que recebe somente o Link 
+   (que possui a mesma funçaõ de uma tag a, redirecionando para um local)padrão do react-router-dom 
+   para vaegar entre as páginas e um icone do material-ui.*/

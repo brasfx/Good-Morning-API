@@ -10,6 +10,7 @@ export default function Footer() {
             className="text-center text-indigo-500 hover:text-indigo-800 font-serif"
             href="https://github.com/brasfx/Good-Morning-API"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {' '}
             Good Morning API
@@ -20,3 +21,6 @@ export default function Footer() {
     </footer>
   );
 }
+
+/*Footer padrão com link pro github do projeto, não há muito o que explicar, só usamos o bom e velho html e css com tailwind.
+  Esse footer é exportado como componente e renderizado em todas as páginas*/

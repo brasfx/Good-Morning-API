@@ -24,3 +24,8 @@ export default function NewsCard({ news }) {
     </div>
   );
 }
+
+/* Aqui temos o componente que contêm todas as noticias trazidas da API, apesar de virem mapeadas pela mapDataToNews(ela mapeia só os dados como um todo),
+   é necessário mapear cada noticia novamente para poderem ser renderizadas.
+   Importamos o componente New que comtém uma única noticia e enviamos para ele toda informação fornecida pela API que será usada
+   para renderizarmos em tela.*/

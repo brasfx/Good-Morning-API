@@ -35,6 +35,7 @@ export default function AboutPage() {
             target="_blank"
             href="https://openweathermap.org/api"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             Weather API
           </a>{' '}
@@ -47,10 +48,23 @@ export default function AboutPage() {
             target="_blank"
             href="https://gnews.io/"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             GNews API
           </a>{' '}
           - para capturar as principais noticias do dia em nosso país.
+        </p>
+        <p>
+          {' '}
+          <a
+            target="_blank"
+            href="https://ipapi.co/"
+            className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
+          >
+            IP API
+          </a>{' '}
+          - para capturar a localização do usuário de acordo seu IP.
         </p>
       </section>
       <section>
@@ -63,6 +77,7 @@ export default function AboutPage() {
             target="_blank"
             href="https://www.javascript.com/"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             😍 JavaScript
           </a>{' '}
@@ -74,6 +89,7 @@ export default function AboutPage() {
             target="_blank"
             href="https://pt-br.reactjs.org/"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             ⚛️ React
           </a>{' '}
@@ -84,6 +100,7 @@ export default function AboutPage() {
             target="_blank"
             href="https://tailwindcss.com/"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             🌈 Tailwind CSS
           </a>{' '}
@@ -94,6 +111,7 @@ export default function AboutPage() {
             target="_blank"
             href="https://vercel.com/"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             ⚙ Vercel
           </a>{' '}
@@ -109,6 +127,7 @@ export default function AboutPage() {
             target="_blank"
             href="https://github.com/brasfx"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             Davi Ribeiro
           </a>{' '}
@@ -119,6 +138,7 @@ export default function AboutPage() {
             target="_blank"
             href="https://github.com/pevferreira"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             Pedro Ferreira
           </a>{' '}
@@ -132,6 +152,7 @@ export default function AboutPage() {
             target="_blank"
             href="http://www.dalmazo.com/"
             className="hover:text-indigo-800 text-indigo-600"
+            rel="noopener noreferrer"
           >
             Bruno Dalmazo
           </a>{' '}
@@ -140,3 +161,8 @@ export default function AboutPage() {
     </div>
   );
 }
+
+/*Página de sobre com os dados de usuário, obejtivo do trabalho e afins, não há muito o que explciar aqui
+só foi usado basicamente texto e estilização com o tailwindcss.
+É daqui que sai os dados que é renderizado lá na index da página About. 
+*/

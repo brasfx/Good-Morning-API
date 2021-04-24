@@ -3,8 +3,7 @@ import dayjs from 'dayjs';
 
 import * as weatherIcons from '../json/icons';
 
-export default function Forecast(props) {
-  const { forecast } = props;
+export default function Forecast({ forecast }) {
   const iconPrefix = 'wi wi-';
 
   return (
@@ -14,10 +13,10 @@ export default function Forecast(props) {
       </div>
       {forecast.map((item, index) => {
         const currentHour = dayjs(item.date).format('H');
-        const isDay = currentHour > 7 && currentHour < 19 ? true : false;
+        const isDay = currentHour > 6 && currentHour < 18 ? true : false; // definir periodo do dia
         const icon =
           iconPrefix +
-          weatherIcons.default[isDay ? 'day' : 'night'][item.icon_id].icon;
+          weatherIcons.default[isDay ? 'day' : 'night'][item.icon_id].icon; // setar a mudança de icones para quando é noite ou dia
 
         return (
           <ul className="mt-4" key={index}>
@@ -36,3 +35,10 @@ export default function Forecast(props) {
     </div>
   );
 }
+
+/* Aqui temos o componente de previsão dos 5 dias, que recebe os dados da fetchForecast e mostra em tela os dados.
+   Importamos os icones de dentro do nosso JSON de icones da pasta json e o dayjs pra formatar a hora, 
+   setamos ainda a mudança de icone de acordo seja dia ou noite.
+   Aqui usamos basicamente css com tailwind para estilizar e tags html para renderização do componente em tela.
+      
+*/

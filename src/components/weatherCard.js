@@ -11,38 +11,56 @@ dayjs.extend(utc);
 dayjs.extend(isLeapYear);
 dayjs.locale('pt-br');
 
-export default function WeatherCard(props) {
-  const iconPrefix = `wi wi-`;
-  const { weather, forecast, units, onUnitsChange } = props;
-  const [isSettingsMenuOpened, setIsSettingsMenuOpened] = useState(false);
+export default function WeatherCard({
+  weather,
+  forecast,
+  units,
+  onUnitsChange,
+}) {
+  const iconPrefix = `wi wi-`; // prefixo de icone padrão
+  const [isSettingsMenuOpened, setIsSettingsMenuOpened] = useState(false); // estado pra definir se o menu modal foi aberto
   const [isMetric, setIsMetric] = useState(
     units.match(/metric/i) ? true : false
-  );
+  ); // estado pra definir as unidades
 
-  const date = dayjs().isValid(weather.date) ? weather.date : '';
-  const currentTime = dayjs.utc(date).utcOffset(weather.timezone).format();
+  const date = dayjs().isValid(weather.date) ? weather.date : ''; // validar a data que vem da API
+
+  const currentTime = dayjs.utc(date).utcOffset(weather.timezone).format(); // formatar a data que vêm da API
+
+  //definir o nascer do sol e formatar
   const sunrise = dayjs
     .utc(weather.sunrise)
     .utcOffset(weather.timezone)
     .format();
+
+  //definir o pôr do sol e formatar
   const sunset = dayjs
     .utc(weather?.sunset)
     .utcOffset(weather.timezone)
     .format();
-  const isDay = currentTime > sunrise && currentTime < sunset ? true : false;
+
+  const isDay = currentTime > sunrise && currentTime < sunset ? true : false; // verifiar se é dia ou noite
+
+  // setar a descrição 
   const description =
-    weather.description.charAt(0).toUpperCase() + weather.description.slice(1);
+    weather.description.charAt(0).toUpperCase() + weather.description.slice(1); 
+
+    //setar icones se dia ou noite
   const icon =
     iconPrefix +
     weatherIcons.default[isDay ? 'day' : 'night'][weather.icon_id].icon;
+
+  // setar mensagem de recomendação de acordo a condição
   const recommendation =
     recommendations.default[isDay ? 'day' : 'night'][weather.icon_id]
       .recommendation;
 
+  //toogle para mudar estado do menu de troca de undiade
   const toggleSettingsMenu = () => {
     setIsSettingsMenuOpened(!isSettingsMenuOpened);
   };
 
+  //função para troca de unidade
   const handleChange = () => {
     onUnitsChange(units.match(/metric/i) ? 'imperial' : 'metric');
     setIsMetric(!isMetric);
@@ -129,3 +147,13 @@ export default function WeatherCard(props) {
     </>
   );
 }
+
+/*Aqui temos basicamente nosso componente mais importante da estrutura, onde importamos na index 
+  da Home e nele fica contido a temperatura atual, hora, umidade, sensação termica, a previsão futura, 
+  toogle para mudança de undiade.
+  Importamos o dayjs para formatarmos a hora local, lingua local, o componente Forecast que nos retorna a 
+  previsão de tempo dos 5 dias, JSON com os icones e recomendações e icones do material ui. 
+  Recebemos da index Home vários parametros para usarmos internamente para definirmos se é dia ou noite, 
+  o retorno da API com os dados que usaremos aqui(hora,temperatura,umidade,vento,etc), estado do clqiue 
+  para mudarmos a unidade(metrica ou imperial).
+  O componete foi estrturado assim como os outros com tags html e css com o talwind.  */

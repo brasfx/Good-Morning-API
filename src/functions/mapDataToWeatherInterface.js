@@ -1,10 +1,10 @@
 export default function mapDataToWeatherInterface(data) {
   const mapped = {
     location: data.name, // nome do local
-    condition: data.cod, // cod do local(usar como key)
+    condition: data.cod, // condição atual, para gerar a mensagem de recomendação
     country: data.sys.country, // nome do pais
     date: data.dt * 1000, // converter em milisegundos
-    description: data.weather[0].description, //descricao 
+    description: data.weather[0].description, //descricao
     feels_like: Math.round(data.main.feels_like), //sensacao termica
     temp_max: Math.round(data.main.temp_max), // temperatura max
     temp_min: Math.round(data.main.temp_min), // temperatura min
@@ -15,13 +15,13 @@ export default function mapDataToWeatherInterface(data) {
     temperature: Math.round(data.main.temp),
     timezone: data.timezone / 3600, // converter segundos em horas
     wind_speed: Math.round(data.wind.speed * 3.6), // converter m/s em km/h
-    
   };
   // adicionar previsao dos proximos 5 dias
   if (data.dt_txt) {
     mapped.dt_txt = data.dt_txt;
   }
 
+  // setar os icones para previsão
   if (data.weather[0].icon) {
     mapped.icon = data.weather[0].icon;
   }
@@ -31,9 +31,9 @@ export default function mapDataToWeatherInterface(data) {
     mapped.min = Math.round(data.main.temp_min);
   }
 
-  // remove undefined fields
+  // removemos os retornos que são undefined
   Object.entries(mapped).map(
-    ([key, value]) => value === undefined && delete mapped[key],
+    ([key, value]) => value === undefined && delete mapped[key]
   );
 
   return mapped;

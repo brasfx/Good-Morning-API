@@ -1,8 +1,6 @@
 import React from 'react';
 
-export default function Search(props) {
-  const { error, isSearching, onLocationChange } = props;
-
+export default function Search({ error, isSearching, onLocationChange }) {
   return (
     <div className="w-4/5 md:w-3/5 lg:w-1/2 m-auto">
       {error ? (
@@ -62,3 +60,8 @@ export default function Search(props) {
     </div>
   );
 }
+
+/*Aqui temos nosso componente de busca, que usamos na página inicial para buscarmos um local.
+  Ele é importando ná página index da Home  e de lá recebe três parametros para recebermos erros, 
+  estado da busca e retornar o que é digitado pelo usuário.
+  Aqui usamos um ternario para valiadação e renderizar uma mensagem de erro em tela quando não encontramos um local que foi buscado.*/

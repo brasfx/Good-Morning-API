@@ -18,3 +18,9 @@ export default function Loading() {
     </div>
   );
 }
+
+/*Aqui está nosso componente de loading que é importado em todas as páginas, e foi feito usando o Lottie, 
+  que é uma biblioteca que nos permite renderizar em tela animações JSON e em outros formatos.
+  Em nossa animação em especifico usamos uma animação que é um JSON(que se encontra lá na pasta assets), 
+  baixado no próprio site do Lottie, definimos suas configurações padrão, um tamanho. 
+  Importamos aqui a animação e o reatc-lottie que é a biblioteca que disponibiliza essas funcionalidades.*/
