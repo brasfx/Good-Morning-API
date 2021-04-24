@@ -13,7 +13,7 @@ export default function AboutPage() {
         <p>
           Good Morning API é nosso serviço onde disponibilizamos ao usuário ter
           acesso a previsão do tempo de acordo sua cidade e noticias que estão
-          no trend topic do país no momento.
+          nos trending topics do país no momento.
         </p>
       </section>
       <section>
