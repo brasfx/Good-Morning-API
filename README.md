@@ -1,4 +1,4 @@
-<h1>Good Morning API</h1>
+<h1><img src="/public/logo.ico" width="100px">Good Morning API</h1>
 
 <p>O Bom dia Brasil é uma página desenvolvida para disciplina de Sistemas Distribuidos do curso de Engenharia de Computação da Universidade Federal de Rio Grande - FURG.</p>
 <p>Good Morning API é nosso serviço onde disponibilizamos ao usuário ter acesso a previsão do tempo de acordo sua cidade e noticias que estão nos trending topics do país no momento.</p>
@@ -39,4 +39,4 @@
 
 <p>4º Após finalizada a instalação das dependências, iniciar o projeto localmente com o comando yarn start(caso use yarn) ou npm start(caso use npm).</p>
 
-<h2><img src="/public/logo.png" width="100px">Happy hacking!</h2>
+<h2>Happy hacking!</h2>
