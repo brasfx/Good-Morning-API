@@ -11,9 +11,9 @@ Good Morning API é nosso serviço onde disponibilizamos ao usuário ter acesso 
 
 <p>
 <ul>
-<li>Weather API - para realizar consulta do tempo em diversas localidades e a previsão futura.</li>
-<li>GNews API - para capturar as principais noticias do dia em nosso país.</li>
-<li>IP API - para capturar a localização do usuário de acordo seu IP.</li>
+<li><a href="https://openweathermap.org/api" traget="_blank">Weather API </a>- para realizar consulta do tempo em diversas localidades e a previsão futura.</li>
+<li><a href="https://gnews.io/" traget="_blank">GNews API</a> - para capturar as principais noticias do dia em nosso país.</li>
+<li><a href="https://ipapi.co/" traget="_blank" >IP API </a>- para capturar a localização do usuário de acordo seu IP.</li>
 </ul>
 </p>
 
@@ -21,14 +21,21 @@ Good Morning API é nosso serviço onde disponibilizamos ao usuário ter acesso 
 
 <p>
 <ul>
-<li>JavaScript</li>
-<li>React</li>
-<li>Tailwind CSS</li>
-<li>Vercel</li>  
+<li> <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code><a href="https://www.javascript.com/" traget="_blank">JavaScript</a></li>
+<li><a href="https://pt-br.reactjs.org/" traget="_blank">Reac</a>t</li>
+<li><a href="https://tailwindcss.com/" traget="_blank">Tailwind CSS</a></li>
+<li><a href="https://vercel.com/" traget="_blank">Vercel</a></li>  
 </ul>
 </p>
 
 <h2>Instruções para uso</h2>
 <p>É possivel acessar o resulatdo do projeto remotamente em: https://good-morning-api.vercel.app</p>
 
-<p>Caso queira usar o projeto localmente, sugerimos fazer um clone do repositorio.Abaixo temos um passo a passo caso essa seja sua escolha.</p>
+<p>Caso queira usar o projeto localmente, sugerimos <a href="https://git-scm.com/book/pt-pt/v2/No%C3%A7%C3%B5es-B%C3%A1sicas-do-Git-Obtendo-um-Reposit%C3%B3rio-Git" target="_blank">fazer um clone do repositorio</a>.Abaixo temos um passo a passo caso essa seja sua escolha.</p>
+<p>1º Criar contas nos sites da <a href="https://openweathermap.org/api" traget="_blank">Weather API </a> e <a href="https://gnews.io/" traget="_blank">GNews API</a> para obter as keys necessárias</p>
+
+<p>2º Criar um arquivo .env na raiz do projeto, inserir as variáveis de ambientes contidas do .sample.env nesse arquivo .env (completando com suas keys adquiridas).</p>
+
+<p>3º Depois de criado o arquivo, em seu terminal rodar o comando yarn ou npm para instalar as dependências do projeto.</p>
+
+<p>4º Após finalizada a instalação das dependências, iniciar o projeto localmente com o comando yarn start(caso use yarn) ou npm start(caso use npm).</p>
