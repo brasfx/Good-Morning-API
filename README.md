@@ -1,8 +1,7 @@
 <h1>Good Morning API</h1>
 
-<p>O Bom dia Brasil é uma página desenvolvida para disciplina de Sistemas Distribuidos do curso de Engenharia de Computação da Universidade Federal de Rio Grande - FURG.
-Good Morning API é nosso serviço onde disponibilizamos ao usuário ter acesso a previsão do tempo de acordo sua cidade e noticias que estão nos trending topics do país no momento.</p>
-
+<p>O Bom dia Brasil é uma página desenvolvida para disciplina de Sistemas Distribuidos do curso de Engenharia de Computação da Universidade Federal de Rio Grande - FURG.</p>
+<p>Good Morning API é nosso serviço onde disponibilizamos ao usuário ter acesso a previsão do tempo de acordo sua cidade e noticias que estão nos trending topics do país no momento.</p>
 <h2>Objetivo</h2>
 
 <p>Esse trabalho aborda aplicações de cliente/servidor para web. Foi implementada a parte do cliente, o servidor foi acessado via API. Dessa forma, o trabalho consiste em apresentar um sistema web (cliente) que use alguma(s) funcionalidade(s) de um servidor web.</p>
