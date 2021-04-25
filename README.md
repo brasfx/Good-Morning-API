@@ -38,3 +38,5 @@
 <p>3º Depois de criado o arquivo, em seu terminal rodar o comando yarn ou npm para instalar as dependências do projeto.</p>
 
 <p>4º Após finalizada a instalação das dependências, iniciar o projeto localmente com o comando yarn start(caso use yarn) ou npm start(caso use npm).</p>
+
+<h2>Happy hacking!</h2>
