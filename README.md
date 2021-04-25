@@ -21,8 +21,8 @@ Good Morning API é nosso serviço onde disponibilizamos ao usuário ter acesso 
 
 <p>
 <ul>
-<li> <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code><a href="https://www.javascript.com/" traget="_blank">JavaScript</a></li>
-<li><a href="https://pt-br.reactjs.org/" traget="_blank">Reac</a>t</li>
+<li><a href="https://www.javascript.com/" traget="_blank">JavaScript</a></li>
+<li><a href="https://pt-br.reactjs.org/" traget="_blank">React</a></li>
 <li><a href="https://tailwindcss.com/" traget="_blank">Tailwind CSS</a></li>
 <li><a href="https://vercel.com/" traget="_blank">Vercel</a></li>  
 </ul>
