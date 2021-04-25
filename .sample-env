@@ -1,5 +1,5 @@
 REACT_APP_API_KEY = 
-REACT_APP_API_URL = 
-REACT_APP_ICON_URL = 
+REACT_APP_API_URL = https://api.openweathermap.org/data/2.5
+REACT_APP_ICON_URL = https://openweathermap.org/img/wn
 REACT_APP_NEWS_KEY =
-REACT_APP_NEWS_URL = 
+REACT_APP_NEWS_URL = https://gnews.io/api/v4

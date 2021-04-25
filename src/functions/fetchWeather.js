@@ -21,3 +21,7 @@ export default async function fetchWeather(location, units) {
     return Promise.reject(error);
   }
 }
+
+/* Aqui usamo o fetch por ser nativo do JS e não ser necessário instalar nenhuma outra dependência,
+   apesar de não ser compativel no Internet Explorer e Opera, por isso caso haja algum problema pra
+   carregar a página inicial, pode ser por isso */

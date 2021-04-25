@@ -1,5 +1,5 @@
 import React from 'react';
-import News from './new';
+import News from './news';
 
 export default function NewsCard({ news }) {
   return (
