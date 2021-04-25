@@ -7,7 +7,7 @@ export default function mapDataToNewsInterface(articles) {
     description: articles.description, // descrição do artigo
     url: articles.url, // url do artigo
     image: articles.image, // imagem do artigo
-    publishedAt: dayjs(articles.publishedAt).format('DD/MM/YYYY'), // data que o artigo foi publicado
+    publishedAt: dayjs(articles.publishedAt).format('DD/MM/YYYY H:mm'), // data que o artigo foi publicado
     name: articles.source.name, // quem publicou o artigo
     sourceUrl: articles.source.url, // url da página que publicou o artigo
   };
