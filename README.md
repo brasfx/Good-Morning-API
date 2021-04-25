@@ -39,4 +39,4 @@
 
 <p>4º Após finalizada a instalação das dependências, iniciar o projeto localmente com o comando yarn start(caso use yarn) ou npm start(caso use npm).</p>
 
-<h2><img src="/public/logo.png">Happy hacking!</h2>
+<h2><img src="/public/logo.png" width="100px">Happy hacking!</h2>
