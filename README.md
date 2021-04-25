@@ -7,7 +7,7 @@ Good Morning API é nosso serviço onde disponibilizamos ao usuário ter acesso 
 
 <p>Esse trabalho aborda aplicações de cliente/servidor para web. Foi implementada a parte do cliente, o servidor foi acessado via API. Dessa forma, o trabalho consiste em apresentar um sistema web (cliente) que use alguma(s) funcionalidade(s) de um servidor web.</p>
 
-<h2>API's utilizadas</h2>
+<h2>APIs utilizadas</h2>
 
 <p>
 <ul>
