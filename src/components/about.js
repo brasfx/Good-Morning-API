@@ -27,7 +27,7 @@ export default function AboutPage() {
       </section>
       <section className="font-serif">
         <p className="pt-5 pb-2 font-bold text-xl font-serif">
-          API's utilizadas
+          APIs utilizadas
         </p>
 
         <p>
